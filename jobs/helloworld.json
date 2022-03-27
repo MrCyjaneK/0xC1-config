@@ -1,0 +1,9 @@
+{
+    "name": "Hello World C++",
+    "description": "This is a simple hello world program written in C++, that is being compiled for each architecture natively using qemu docker emulation.",
+    "repository": "https://github.com/cisc220/hello-world/",
+    "branches": ["master"],
+    "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v6"],
+    "runner": "cpp",
+    "steps": ["g++ -o /opt/out/hello hello.cpp"]
+}
